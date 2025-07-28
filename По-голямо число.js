@@ -1,11 +1,11 @@
-function bigNumber(input){
+function bigNumber(input) {
     let firstNumber = Number(input[0]);
     let secondNumber = Number(input[1]);
 
-    if(firstNumber > secondNumber){
+    if (firstNumber > secondNumber) {
         console.log(firstNumber);
     }
-    else{
+    else {
         console.log(secondNumber);
     }
 }
